@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <!-- 設定編碼格式和網頁標題 -->
+  <meta charset="UTF-8">
+  <title>doo00OOOO0oocument</title>
+  <style>
+    /* .body {
+    background-color: #2bbff1;
+  } */
+
+
+    /* 下面的可以改滿版背景圖片 */
+
+    /* body {
+  background-image: url('background-image-url');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+    .navv {
+      background-color:coral;
+    }
+
+    .carousel-item .img-fluid {
+      height: 1920px;
+      width: 1080px;
+      object-fit: contain;
+      object-position: center;
+    }
+
+    .carousel-indicators li {
+      background-color:coral;
+      /* 更改槓槓的背景顏色 */
+    }
+
+    .carousel-indicators .active {
+      background-color:coral;
+      /* 更改當前槓槓的背景顏色 */
+    }
+  </style>
+
+
+  <!-- 引入 Font Awesome 和 Bootstrap 的 CSS 檔案 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" />
+</head>
+
+
+
+<body style="background-color: antiquewhite;">
+ 
+  <header class="header" >
+    <nav class="navbar  navbar-expand-md navbar-light fixed-top shadow " style="height: 100px; background-color:coral; ">
+    <p class="text-center h1 m-auto d-block" style="color:rgb(122, 62, 32);"><b>漢堡王</b></p>
+
+    </nav>
+  </header>
+
+  <!-- 主要內容區域 -->
+  <main class="container-fluid mt-5 d-flex justify-content-center align-items-center">
+    <div class="row ">
+
+
+
+      <!-- 右側區域 -->
+
+      <!-- carousel-indicators輪播圖片下面的槓槓
+       <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> -->
+
+      <div class="col-md-auto">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"
+              style="height: 5px;width: 60px;"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"
+              style="height: 5px;width: 60px;"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"
+              style="height: 5px;width: 60px;"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3" class="active"
+              style="height: 5px;width: 60px;"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4" class="active"
+              style="height: 5px;width: 60px;"></li>
+          </ol>
+
+          <a href="index_1.html">
+
+            <div class="carousel-inner">
+              <div class="carousel-item  active" data-bs-interval="500">
+
+                <!-- 同一層資料夾加點>>> . -->
+                <!-- 上一層資料夾加點點>>> .. -->
+
+                <img
+                  src="./bk_img/001.png"
+                  class="img-fluid d-block vh-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="500">
+                <img src="./bk_img/002.png"
+                  class="img-fluid d-block vh-100" alt="..." >
+              </div>
+              <div class="carousel-item" data-bs-interval="500">
+                <img src="./bk_img/003.png"
+                  class="img-fluid d-block vh-100" alt="..." >
+              </div>
+              <div class="carousel-item" data-bs-interval="500">
+                <img
+                  src="./bk_img/004.png"
+                  class="img-fluid d-block vh-100" alt="..." >
+              </div>
+              <div class="carousel-item" data-bs-interval="500">
+                <img src="./bk_img/005.png"   class="img-fluid d-block vh-100" alt="..." >alt="..." >
+              </div>
+            </div>
+          </a>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden" style="color:coral; border: none;">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden" style="color:coral; border: none;">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    </div>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
